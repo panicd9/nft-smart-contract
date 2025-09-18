@@ -1,5 +1,10 @@
 ## Foundry
 
+## How to deploy to local Anvil
+
+1. Run `anvil` in terminal.
+2. Open second terminal and run `forge script script/DeployNft.s.sol --rpc-url 127.0.0.1:8545 --broadcast --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80` to deploy it locally with anvil generated private key.
+
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
 Foundry consists of:
